@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Cherry
   - Trap
   layers:
   - Default
@@ -13,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - 
-  - 
+  - player
+  - ground
+  - Trap
   - 
   - 
   - 
@@ -40,12 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 4039170079
+  - name: Back ground
+    uniqueID: 2452276203
+    locked: 0
+  - name: Terrain
+    uniqueID: 1919016227
+    locked: 0
+  - name: player
+    uniqueID: 3226142291
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Terrain
-    uniqueID: 4270323005
     locked: 0
